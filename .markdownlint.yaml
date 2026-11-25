@@ -1,0 +1,7 @@
+# Rules relaxed for this docs site
+MD013: false        # long lines are fine in prose and tables
+MD033: false        # inline HTML is used for status labels
+MD046:
+  style: fenced     # code blocks are fenced
+MD007:
+  indent: 4         # nested content under numbered steps uses 4 spaces
