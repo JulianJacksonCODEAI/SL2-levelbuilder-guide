@@ -29,6 +29,8 @@ Not checked yet: the limit on AI calls (30 a minute), sharing only within a sect
 
 ## Full toolbox catalog
 
+What each block does, with its text as shown in the lab: [All blocks](blocks.md).
+
 These are all the blocks you can add in toolbox mode (checked 2026-11-24).
 
 | Category | Block types |

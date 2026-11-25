@@ -14,10 +14,13 @@ nav = [
     { "AI image generator" = "image-generator.md" },
     { "Checklists (objectives)" = "checklists.md" },
     { "Setup tricks" = "setup-tricks.md" },
+    { "Lock a function" = "lock-a-function.md" },
+    { "Create new blocks" = "create-new-blocks.md" },
   ] },
   { "Reference" = [
     { "JSON properties" = "reference/json-properties.md" },
     { "Console recipes" = "reference/console-recipes.md" },
+    { "All blocks" = "reference/blocks.md" },
     { "AI blocks" = "reference/ai-blocks.md" },
     { "Block status" = "reference/block-status.md" },
     { "Known bugs and changes" = "reference/known-bugs.md" },

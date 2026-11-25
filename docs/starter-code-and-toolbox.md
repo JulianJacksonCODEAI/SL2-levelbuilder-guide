@@ -15,11 +15,11 @@
 !!! warning "Why you need Start Over"
     Once you have opened a level, Sprite Lab 2 loads your saved project instead of the new starter code. Students who already opened the level see their saved project too.
 
-### Locking blocks
+### Locking blocks <span class="status tested">Tested</span>
 
-Right-click a block and choose **Make undeletable**, **Make immovable** or **Make uneditable**. <span class="status untested">Not yet tested</span> These choices may only save after another edit to the workspace.
+Right-click a block and choose **Make Undeletable to Users**, **Make Immovable to Users** or **Make Uneditable to Users**. The change only saves after another edit: drag any block a little, wait about 5 seconds, then click **Save**.
 
-To lock a whole function reliably, use the [lock recipe](reference/console-recipes.md#lock-and-collapse-a-function). It saves every time.
+Locking a function this way doesn't protect the blocks inside it; students can still drag them out. To lock a function so nothing inside can change, collapse it too. See [Lock a function](lock-a-function.md).
 
 ## Toolbox
 
