@@ -1,0 +1,2 @@
+# Regular expressions for lines the privacy check should skip (one per line).
+# Add a line only when a match is safe to publish, and say why in a comment.
