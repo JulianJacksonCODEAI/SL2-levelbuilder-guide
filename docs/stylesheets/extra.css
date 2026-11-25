@@ -37,6 +37,15 @@
   border-radius: 6px;
 }
 
+/* In tables, show block pictures near real size; the table scrolls sideways if it must */
+.md-typeset td img.block {
+  max-width: 300px;
+  margin: 0.2em 0;
+}
+.md-typeset td:nth-child(4) {
+  min-width: 14em;
+}
+
 /* Status chips */
 .md-typeset .status {
   display: inline-block;
