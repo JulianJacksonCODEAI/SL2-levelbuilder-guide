@@ -39,7 +39,7 @@ Change `count_question` to your function's name.
 }
 ```
 
-After Save, a reload and Start Over, the function stays collapsed and locked. The three `initial...Config` settings are what make the lock save.
+After Save, a reload and Start Over, the function stays collapsed and locked. The three `initial...Config` settings are what make the lock save. Step-by-step instructions, including why you must nudge a block before saving: [Lock a function](../lock-a-function.md).
 
 ![collapsed, locked function](../images/blocks/function-locked-light.png#only-light){ .block }
 ![collapsed, locked function](../images/blocks/function-locked-dark.png#only-dark){ .block }
