@@ -12,13 +12,13 @@
 }
 
 /* Inline code: tinted chip so block and property names stand out */
-.md-typeset code {
+.md-typeset :not(pre) > code {
   background: #EEEDFB;
   color: #18145A;
   padding: 0.1em 0.35em;
   border-radius: 4px;
 }
-[data-md-color-scheme="slate"] .md-typeset code {
+[data-md-color-scheme="slate"] .md-typeset :not(pre) > code {
   background: #2B2A45;
   color: #E4E2FF;
 }
