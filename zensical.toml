@@ -1,0 +1,79 @@
+[project]
+site_name = "Sprite Lab 2 Level Builder Guide"
+site_url = "https://julianjacksoncodeai.github.io/SL2-levelbuilder-guide/"
+site_description = "How to build Sprite Lab 2 (Lab2) levels in Code.org Level Builder."
+repo_url = "https://github.com/JulianJacksonCODEAI/SL2-levelbuilder-guide"
+repo_name = "SL2-levelbuilder-guide"
+extra_css = ["stylesheets/extra.css"]
+nav = [
+  { "Home" = "index.md" },
+  { "How-to" = [
+    { "Make a level" = "make-a-level.md" },
+    { "Level modes" = "level-modes.md" },
+    { "Starter code and toolbox" = "starter-code-and-toolbox.md" },
+    { "AI image generator" = "image-generator.md" },
+    { "Checklists (objectives)" = "checklists.md" },
+    { "Setup tricks" = "setup-tricks.md" },
+  ] },
+  { "Reference" = [
+    { "JSON properties" = "reference/json-properties.md" },
+    { "Console recipes" = "reference/console-recipes.md" },
+    { "AI blocks" = "reference/ai-blocks.md" },
+    { "Block status" = "reference/block-status.md" },
+    { "Known bugs and changes" = "reference/known-bugs.md" },
+  ] },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "content.code.copy",
+  "content.code.select",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+md_in_html = {}
+tables = {}
+toc.permalink = true
+pymdownx.details = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.superfences = {}
+pymdownx.tabbed.alternate_style = true

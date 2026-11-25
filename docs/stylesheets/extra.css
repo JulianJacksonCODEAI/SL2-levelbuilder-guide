@@ -1,0 +1,60 @@
+/* CodeAI purple as the primary color, with AA contrast in both schemes */
+:root {
+  --md-primary-fg-color: #4C42CF;
+  --md-primary-fg-color--light: #6A62D9;
+  --md-primary-fg-color--dark: #18145A;
+  --md-accent-fg-color: #4C42CF;
+}
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4C42CF;
+  --md-accent-fg-color: #A9A3F5;
+  --md-typeset-a-color: #A9A3F5;
+}
+
+/* Inline code: tinted chip so block and property names stand out */
+.md-typeset code {
+  background: #EEEDFB;
+  color: #18145A;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+[data-md-color-scheme="slate"] .md-typeset code {
+  background: #2B2A45;
+  color: #E4E2FF;
+}
+
+/* Code blocks keep their own highlighting; give them a frame */
+.md-typeset pre > code {
+  border-left: 4px solid var(--md-primary-fg-color);
+}
+
+/* Block pictures: no stretching, a little breathing room */
+.md-typeset img.block {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.6em 0 1em;
+  border-radius: 6px;
+}
+
+/* Status chips */
+.md-typeset .status {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 0.1em 0.55em;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+.md-typeset .status.tested { background: #DCF2E6; color: #13573A; }
+.md-typeset .status.untested { background: #FCE8D6; color: #7A3606; }
+.md-typeset .status.no { background: #F5DADA; color: #7A1818; }
+[data-md-color-scheme="slate"] .md-typeset .status.tested { background: #13573A; color: #DCF2E6; }
+[data-md-color-scheme="slate"] .md-typeset .status.untested { background: #7A3606; color: #FCE8D6; }
+[data-md-color-scheme="slate"] .md-typeset .status.no { background: #7A1818; color: #F5DADA; }
+
+/* Show only the block picture that matches the color scheme */
+[data-md-color-scheme="default"] img[src$="#only-dark"],
+[data-md-color-scheme="slate"] img[src$="#only-light"] {
+  display: none !important;
+}
