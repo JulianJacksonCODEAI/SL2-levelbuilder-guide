@@ -8,12 +8,12 @@ Blocks and features curriculum projects asked for, and whether Sprite Lab 2 has 
 | Functions | <span class="status tested">Tested</span> | A call runs the blocks inside. Functions can't return values. |
 | ask AI | <span class="status tested">Tested</span> | Stores the answer in a variable. See [AI blocks](ai-blocks.md). |
 | ask AI with answer choices | <span class="status tested">Tested</span> | See [AI blocks](ai-blocks.md). |
-| set system prompt | <span class="status untested">In toolbox</span> | Sets instructions for later AI questions. |
-| remove a sprite | <span class="status untested">In toolbox</span> | `remove` plus the **the touched sprite** and **the clicked sprite** blocks. Removing one sprite during a game wasn't tested. |
-| show title | <span class="status untested">In toolbox</span> | Has no inputs. It always shows "You win!" |
+| set system prompt | <span class="status tested">Tested</span> | Sets instructions for later AI questions. |
+| remove a sprite | <span class="status tested">Tested</span> | `remove` plus **the clicked sprite** (or **the touched sprite**) removes just that sprite during a game. |
+| show title | <span class="status tested">Tested</span> | Has no inputs. It always shows "You win!" |
 | print | <span class="status no">Not available</span> | The block exists in the lab's code but isn't in the toolbox catalog. In a test it showed nothing and may stop the script it is in. |
 | Upload a sprite image | <span class="status untested">Dev only</span> | A level mode setting labeled "FOR DEVELOPMENT USE ONLY." |
-| Free-text image generation | <span class="status no">Not available</span> | Students pick from word chips. |
+| Free-text image generation | <span class="status no">Not available</span> | Students pick from word chips. Authors can type a prompt under **Advanced**; see [Images tab](../image-generator.md). |
 | AI instructions set in Level Builder | <span class="status no">Not available</span> | No level setting for it. |
 | Go to another project | <span class="status no">Not available</span> | No block. |
 

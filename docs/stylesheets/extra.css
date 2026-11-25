@@ -45,6 +45,7 @@
   padding: 0.1em 0.55em;
   border-radius: 999px;
   vertical-align: middle;
+  white-space: nowrap;
 }
 .md-typeset .status.tested { background: #DCF2E6; color: #13573A; }
 .md-typeset .status.untested { background: #FCE8D6; color: #7A3606; }
