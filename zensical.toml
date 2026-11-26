@@ -6,8 +6,8 @@ edit_uri = "edit/main/docs/"
 repo_url = "https://github.com/JulianJacksonCODEAI/SL2-levelbuilder-guide"
 repo_name = "SL2-levelbuilder-guide"
 # Change the ?v= date whenever extra.css or block-filter.js changes, so browsers fetch the new copy.
-extra_css = ["stylesheets/extra.css?v=2026-11-26"]
-extra_javascript = ["javascripts/block-filter.js?v=2026-11-26"]
+extra_css = ["stylesheets/extra.css?v=2026-11-26.2"]
+extra_javascript = ["javascripts/block-filter.js?v=2026-11-26.2"]
 nav = [
   { "Home" = "index.md" },
   { "How-to" = [

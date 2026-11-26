@@ -222,7 +222,7 @@
 
 /* Phones: the How to read this page toggle is a full-size tap target */
 @media screen and (max-width: 600px) {
-  .md-typeset details.info > summary {
+  .md-typeset details > summary {
     min-height: 2.2rem;
     display: flex;
     align-items: center;
@@ -310,7 +310,10 @@
 .md-content__inner > p,
 .md-content__inner > ul,
 .md-content__inner > ol {
-  max-width: 40em;
+  max-width: 37em;
+}
+.md-content__inner > .admonition {
+  max-width: 42em;
 }
 .md-typeset p,
 .md-typeset li {

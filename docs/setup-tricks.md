@@ -8,8 +8,8 @@ Sprite Lab 2 has no initialization blocks (hidden code that runs first). The clo
 2. Run the [lock recipe](reference/console-recipes.md#lock-and-collapse-a-function) in the browser console.
 3. Click **Save**. Students now see one closed block they can't open, edit, move or delete.
 
-    ![collapsed, locked function](images/blocks/function-locked-light.png#only-light){ .block }
-    ![collapsed, locked function](images/blocks/function-locked-dark.png#only-dark){ .block }
+    ![collapsed, locked function](images/blocks/function-locked-light.png#only-light){ .block loading=lazy }
+    ![collapsed, locked function](images/blocks/function-locked-dark.png#only-dark){ .block loading=lazy }
 
 !!! danger "Don't make it invisible"
     Setting the function to invisible makes the program fail with a "not defined" error. <span class="status unverified">Not yet tested</span>

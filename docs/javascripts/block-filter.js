@@ -101,10 +101,20 @@
     });
     mount.parentNode.appendChild(jump);
     if ("IntersectionObserver" in window) {
+      var pastFilter = false, footerShown = false;
+      var update = function () { jump.hidden = !pastFilter || footerShown; };
       new IntersectionObserver(function (entries) {
         var e = entries[0];
-        jump.hidden = e.isIntersecting || e.boundingClientRect.top > 0;
+        pastFilter = !e.isIntersecting && e.boundingClientRect.top <= 0;
+        update();
       }).observe(mount);
+      var footer = document.querySelector(".md-footer");
+      if (footer) {
+        new IntersectionObserver(function (entries) {
+          footerShown = entries[0].isIntersecting;
+          update();
+        }).observe(footer);
+      }
     }
 
     function reset() {

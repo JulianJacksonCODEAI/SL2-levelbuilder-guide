@@ -6,35 +6,35 @@ The AI category has three blocks. They work only for levelbuilders, pilot users,
 
 Sets instructions the AI follows for every later question.
 
-![set system prompt block](../images/blocks/set-system-prompt-light.png#only-light){ .block }
-![set system prompt block](../images/blocks/set-system-prompt-dark.png#only-dark){ .block }
+![set system prompt block](../images/blocks/set-system-prompt-light.png#only-light){ .block loading=lazy }
+![set system prompt block](../images/blocks/set-system-prompt-dark.png#only-dark){ .block loading=lazy }
 
 ## ask AI
 
 Sends a question and stores the answer in a variable. It is a stack block, not a block that returns text.
 
-![ask AI block](../images/blocks/ask-ai-light.png#only-light){ .block }
-![ask AI block](../images/blocks/ask-ai-dark.png#only-dark){ .block }
+![ask AI block](../images/blocks/ask-ai-light.png#only-light){ .block loading=lazy }
+![ask AI block](../images/blocks/ask-ai-dark.png#only-dark){ .block loading=lazy }
 
 There is no "wait" block. To use the answer, put your code under **when [variable] answered**.
 
-![when answered block](../images/blocks/when-answered-light.png#only-light){ .block }
-![when answered block](../images/blocks/when-answered-dark.png#only-dark){ .block }
+![when answered block](../images/blocks/when-answered-light.png#only-light){ .block loading=lazy }
+![when answered block](../images/blocks/when-answered-dark.png#only-dark){ .block loading=lazy }
 
 ## ask AI with answer choices
 
 Like **ask AI**, but the answer is always one of the choices you list.
 
-![ask AI with answer choices block](../images/blocks/ask-ai-with-choices-light.png#only-light){ .block }
-![ask AI with answer choices block](../images/blocks/ask-ai-with-choices-dark.png#only-dark){ .block }
+![ask AI with answer choices block](../images/blocks/ask-ai-with-choices-light.png#only-light){ .block loading=lazy }
+![ask AI with answer choices block](../images/blocks/ask-ai-with-choices-dark.png#only-dark){ .block loading=lazy }
 
 ### Example program
 
-![program that sets a system prompt and asks with choices](../images/blocks/example-ask-ai-program-light.png#only-light){ .block }
-![program that sets a system prompt and asks with choices](../images/blocks/example-ask-ai-program-dark.png#only-dark){ .block }
+![program that sets a system prompt and asks with choices](../images/blocks/example-ask-ai-program-light.png#only-light){ .block loading=lazy }
+![program that sets a system prompt and asks with choices](../images/blocks/example-ask-ai-program-dark.png#only-dark){ .block loading=lazy }
 
-![when answered, if answer = yes, show title](../images/blocks/example-branch-on-answer-light.png#only-light){ .block }
-![when answered, if answer = yes, show title](../images/blocks/example-branch-on-answer-dark.png#only-dark){ .block }
+![when answered, if answer = yes, show title](../images/blocks/example-branch-on-answer-light.png#only-light){ .block loading=lazy }
+![when answered, if answer = yes, show title](../images/blocks/example-branch-on-answer-dark.png#only-dark){ .block loading=lazy }
 
 ### What it returns
 
