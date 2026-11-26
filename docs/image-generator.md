@@ -2,6 +2,8 @@
 
 The **Images** tab is where students (and you, in start mode) make the pictures a level uses: characters, backgrounds, objects and platform blocks. Each picture comes from the AI image creator, and students can paint on it afterwards. Tested 2026-11-25 in start mode; nothing was saved.
 
+![The Images tab in start mode: the list of images, the drawing canvas and the AI prompt panel](images/levelbuilder/images-tab.png){ .screenshot }
+
 ## Turn it on
 
 1. Set the [Kind](level-modes.md) to World, Image or Free play, or tick **Enable the Images tab** on a Code or Play level. On a Code level without it, the Images tab is greyed out.

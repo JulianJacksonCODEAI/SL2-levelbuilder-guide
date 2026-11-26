@@ -7,6 +7,9 @@ There is no separate Sprite Lab 2 level type. You make a regular Sprite Lab leve
 3. Type a **Name** and click **Save and publish**.
 4. On the edit page, find the **[EXPERIMENTAL] Lab 2** section and tick **Enable Lab 2**.
    This box only appears after the first save.
+
+    ![The EXPERIMENTAL Lab 2 section of the edit page, with Enable Lab 2 ticked](images/levelbuilder/enable-lab2.png){ .screenshot }
+
 5. Click **Save and publish** again.
 
 ## Instructions
