@@ -23,6 +23,50 @@
   color: #E4E2FF;
 }
 
+/* JSON properties: keys never break mid-name, rows are linkable */
+.md-typeset .key-table table {
+  display: table;
+  width: 100%;
+}
+.md-typeset .key-table td:first-child {
+  width: 40%;
+}
+.md-typeset .key-table td:first-child code {
+  white-space: nowrap;
+  scroll-margin-top: 4rem;
+}
+.md-typeset .key-table tr:has(code:target) > td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+@media screen and (max-width: 600px) {
+  .md-typeset .key-table table,
+  .md-typeset .key-table tbody,
+  .md-typeset .key-table tr,
+  .md-typeset .key-table td {
+    display: block;
+    width: auto;
+  }
+  .md-typeset .key-table thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  .md-typeset .key-table tr {
+    padding: 0.5rem 0;
+  }
+  .md-typeset .key-table tr + tr {
+    border-top: 1px solid var(--md-typeset-table-color);
+  }
+  .md-typeset .key-table table td,
+  .md-typeset .key-table table td:first-child {
+    width: auto;
+    padding: 0.2rem 0.8rem;
+    border: 0;
+  }
+}
+
 /* Code blocks keep their own highlighting; give them a frame */
 .md-typeset pre > code {
   border-left: 4px solid var(--md-primary-fg-color);
