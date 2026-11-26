@@ -12,7 +12,7 @@ Sprite Lab 2 has no initialization blocks (hidden code that runs first). The clo
     ![collapsed, locked function](images/blocks/function-locked-dark.png#only-dark){ .block }
 
 !!! danger "Don't make it invisible"
-    Setting the function to invisible makes the program fail with a "not defined" error. <span class="status untested">Not yet tested</span>
+    Setting the function to invisible makes the program fail with a "not defined" error. <span class="status unverified">Not yet tested</span>
 
 ## Other tips
 
@@ -21,5 +21,5 @@ Sprite Lab 2 has no initialization blocks (hidden code that runs first). The clo
 | Click **Start Over** after every starter code save, or you'll keep seeing your old project. | <span class="status tested">Tested</span> |
 | For Variables and Functions, use the Auto-populated Category block on its own. | <span class="status tested">Tested</span> |
 | In the JSON box, each key replaces its whole value. To change one item, copy the whole value, edit it and paste it back. `null`, empty or `false` removes the key. | <span class="status tested">Tested</span> |
-| After a console change, wait a few seconds before you click **Save**, then reload to check. | <span class="status untested">Not yet tested</span> |
-| Exemplar code doesn't save on Sprite Lab 2 levels. Keep the exemplar in a cloned level. | <span class="status untested">Not yet tested</span> |
+| After a console change, wait a few seconds before you click **Save**, then reload to check. | <span class="status unverified">Not yet tested</span> |
+| Exemplar code doesn't save on Sprite Lab 2 levels. Keep the exemplar in a cloned level. | <span class="status unverified">Not yet tested</span> |

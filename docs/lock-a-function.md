@@ -8,7 +8,7 @@ Use this when students should run a function but not open, change, move or delet
 |---|---|---|
 | Lock with the right-click menu | Can't move, edit or delete | **Students can still drag them out and edit them** |
 | Lock **and collapse** (console) | Can't move, edit, delete or expand | Hidden and safe |
-| Make it invisible | Disappears | <span class="status no">Not available</span>: the program stops with "… is not defined" |
+| Make it invisible | Disappears | **Doesn't work:** the program stops with "… is not defined" |
 
 To protect what's inside, the function must be **collapsed** as well as locked. The menu has no Collapse option, so use the console.
 

@@ -10,7 +10,7 @@ Most pages were tried in Level Builder on **2026-11-24**. Pages tested later, su
 |---|---|
 | <span class="status tested">Tested</span> | Tried in Level Builder and did what the page says. |
 | <span class="status untested">Check by hand</span> | Couldn't be checked in a test run (it needs arrow keys, sound or songs). The note says why. |
-| <span class="status untested">Not yet tested</span> | Comes from the lab's code or a report. Try it on your own test level first. |
+| <span class="status unverified">Not yet tested</span> | Comes from the lab's code or a report. Try it on your own test level first. |
 | <span class="status no">Not available</span> | Not in Sprite Lab 2 yet. |
 
 ## Start here

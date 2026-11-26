@@ -48,7 +48,7 @@
     group.className = "block-filter__statuses";
     group.setAttribute("role", "group");
     group.setAttribute("aria-label", "Show only blocks with status");
-    var classFor = { "Tested": "tested", "Check by hand": "untested", "Not yet tested": "untested", "Not available": "no" };
+    var classFor = { "Tested": "tested", "Check by hand": "untested", "Not yet tested": "unverified", "Not available": "no" };
     var buttons = statuses.map(function (s) {
       var b = document.createElement("button");
       b.type = "button";

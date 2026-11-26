@@ -47,6 +47,6 @@ Locking a function this way doesn't protect the blocks inside it; students can s
 
 A new level's toolbox has these categories: Behaviors, Sprites, Events, World, Location, Game Design, AI, Math, Logic, Loops, Text, Colour, Variables, Functions.
 
-### Block catalog <span class="status untested">Not yet tested</span>
+### Block catalog <span class="status unverified">Not yet tested</span>
 
 The `block_catalog`, `blocks_always_in_toolbox` and `lock_earlier_blocks` settings live in the [JSON properties](reference/json-properties.md) box.

@@ -280,13 +280,23 @@
 [data-md-color-scheme="slate"] .md-typeset .status.no { background: #7A1818; color: #F5DADA; }
 
 /* In tables, Tested is the usual case: plain text, so the exceptions stand out */
-.md-typeset td .status.tested,
-[data-md-color-scheme="slate"] .md-typeset td .status.tested {
+.md-typeset td:last-child > .status.tested,
+[data-md-color-scheme="slate"] .md-typeset td:last-child > .status.tested {
   background: transparent;
   padding: 0;
   font-weight: 600;
   color: var(--md-default-fg-color--light);
 }
+/* Not yet tested: outlined, so it never looks like Check by hand */
+.md-typeset .status.unverified {
+  background: transparent;
+  color: #7A3606;
+  box-shadow: inset 0 0 0 1.5px currentColor;
+}
+[data-md-color-scheme="slate"] .md-typeset .status.unverified {
+  color: #F5C9A3;
+}
+
 /* Show only the block picture that matches the color scheme */
 [data-md-color-scheme="default"] img[src$="#only-dark"],
 [data-md-color-scheme="slate"] img[src$="#only-light"] {
