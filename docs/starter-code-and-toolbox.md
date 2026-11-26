@@ -9,8 +9,8 @@
 
 3. Build the starter code. A new level starts with only `when run`, which students can't delete or move.
 
-    ![when run block](images/blocks/when-run-light.png#only-light){ .block }
-    ![when run block](images/blocks/when-run-dark.png#only-dark){ .block }
+    ![when run block](images/blocks/when-run-light.png#only-light){ .block loading=lazy }
+    ![when run block](images/blocks/when-run-dark.png#only-dark){ .block loading=lazy }
 
 4. Click **Save** at the top of the page. The status changes from "Not saved" to "Saved".
 5. Open the level and click **Start Over** to see your change.
@@ -29,14 +29,14 @@ Locking a function this way doesn't protect the blocks inside it; students can s
 1. Open `/levels/{level ID}/edit_blocks/toolbox_blocks`. The page says "You are editing toolbox blocks."
 2. Open the **Categories** category and drag out a **Category** block. Type the category name, for example `Events`.
 
-    ![Category block named Events](images/blocks/toolbox-category-light.png#only-light){ .block }
-    ![Category block named Events](images/blocks/toolbox-category-dark.png#only-dark){ .block }
+    ![Category block named Events](images/blocks/toolbox-category-light.png#only-light){ .block loading=lazy }
+    ![Category block named Events](images/blocks/toolbox-category-dark.png#only-dark){ .block loading=lazy }
 
 3. Place blocks from the other categories under it. Those blocks appear in that category for students.
 4. For Variables or Functions, drag an **Auto-populated Category** block and choose Variables or Functions.
 
-    ![Auto-populated Category block set to Variables](images/blocks/toolbox-auto-category-light.png#only-light){ .block }
-    ![Auto-populated Category block set to Variables](images/blocks/toolbox-auto-category-dark.png#only-dark){ .block }
+    ![Auto-populated Category block set to Variables](images/blocks/toolbox-auto-category-light.png#only-light){ .block loading=lazy }
+    ![Auto-populated Category block set to Variables](images/blocks/toolbox-auto-category-dark.png#only-dark){ .block loading=lazy }
 
 5. Click **Save**.
 

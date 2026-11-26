@@ -12,7 +12,7 @@ The **Images** tab is where students (and you, in start mode) make the pictures 
 
 ## The Images tab
 
-![The Images tab with a character](images/images-tab/character-creator.png){ .block }
+![The Images tab with a character](images/images-tab/character-creator.png){ .block loading=lazy }
 
 - **Left:** the level's pictures, grouped as **Characters**, **Backgrounds**, **Objects** and **Blocks**. The **+** button adds one, and the red trash button deletes the selected one.
 - **Middle:** the picture, with paint tools above it. Characters also show their **Idle**, **Walk** and **Jump** frames below it.
@@ -36,17 +36,17 @@ Only characters have the **Animated** toggle and Idle, Walk and Jump frames. Obj
 <div class="picture-row" markdown>
 
 <figure markdown>
-![Background: a snowy forest](images/images-tab/background-creator.png){ .block }
+![Background: a snowy forest](images/images-tab/background-creator.png){ .block loading=lazy }
 <figcaption>Background</figcaption>
 </figure>
 
 <figure markdown>
-![Object: a star](images/images-tab/object-creator.png){ .block }
+![Object: a star](images/images-tab/object-creator.png){ .block loading=lazy }
 <figcaption>Object</figcaption>
 </figure>
 
 <figure markdown>
-![Block: grass](images/images-tab/block-creator.png){ .block }
+![Block: grass](images/images-tab/block-creator.png){ .block loading=lazy }
 <figcaption>Block</figcaption>
 </figure>
 
@@ -63,7 +63,7 @@ Only characters have the **Animated** toggle and Idle, Walk and Jump frames. Obj
 
 Tested: a snowy forest background, grass platform blocks, a robot platform player and a star object all appeared in one game.
 
-![The four kinds of picture in a running game](images/images-tab/images-in-game.png){ .block }
+![The four kinds of picture in a running game](images/images-tab/images-in-game.png){ .block loading=lazy }
 
 !!! tip "Use different images for touching"
     **when ? touches ?** fires right away if both slots name the same image. An object gives you a second image to test touching with. See [Blocks](reference/blocks.md#gamelab_checkTouching).
@@ -90,7 +90,7 @@ The **ⓘ** button by **AI prompt** opens **Behind the scenes**. It shows the fu
 
 ### Advanced settings (authors only)
 
-![Advanced settings](images/images-tab/advanced-settings.png){ .block }
+![Advanced settings](images/images-tab/advanced-settings.png){ .block loading=lazy }
 
 The sliders button by **AI prompt** opens **Advanced**, marked "These settings are for authors; students make pictures from the words."
 

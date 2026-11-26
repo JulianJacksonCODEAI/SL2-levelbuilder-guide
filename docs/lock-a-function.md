@@ -39,8 +39,8 @@ To protect what's inside, the function must be **collapsed** as well as locked. 
 6. Wait about 5 seconds, then click **Save**.
 7. Check as a student: open the level, click **Start Over**, and right-click the function. You should see only **Copy** and **Create '…'**, with no Expand.
 
-![collapsed, locked function](images/blocks/function-locked-light.png#only-light){ .block }
-![collapsed, locked function](images/blocks/function-locked-dark.png#only-dark){ .block }
+![collapsed, locked function](images/blocks/function-locked-light.png#only-light){ .block loading=lazy }
+![collapsed, locked function](images/blocks/function-locked-dark.png#only-dark){ .block loading=lazy }
 
 !!! note "Why the console says `undefined`"
     Running a line that only declares a variable, like `const ws = Blockly.getMainWorkspace();`, always prints `undefined`. That's normal. Type `ws` and press ++enter++ to see the workspace. If you see `null`, click the workspace and run the line again.
