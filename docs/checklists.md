@@ -41,5 +41,5 @@ Each item shows "To do" and changes to "Done" as soon as the student does it. **
 | `editing` `{id}` | The student opened that scene in the editor | No |
 | `rated` | The student rated a generated picture | No |
 
-- `shownWhen` hides an item until another check passes. <span class="status untested">Not yet tested</span>
+- `shownWhen` hides an item until another check passes. <span class="status unverified">Not yet tested</span>
 - With no `items`, students can continue right away.

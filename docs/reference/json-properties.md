@@ -7,7 +7,7 @@ The **Additional properties (JSON)** box on the edit page holds the Sprite Lab 2
     - `null`, an empty value or `false` removes the key.
     - **Save additional properties** saves the box on its own.
 
-Only `objectives` has been tested <span class="status tested">Tested</span>. Every other key is <span class="status untested">Not yet tested</span>: its meaning comes from the lab's code, so try it on your own test level first. To link to a key, add `#` and the key to this page's address, for example `json-properties/#block_catalog`.
+Only `objectives` has been tested <span class="status tested">Tested</span>. Every other key is <span class="status unverified">Not yet tested</span>: its meaning comes from the lab's code, so try it on your own test level first. To link to a key, add `#` and the key to this page's address, for example `json-properties/#block_catalog`.
 
 ## Checklist
 

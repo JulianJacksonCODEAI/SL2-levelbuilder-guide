@@ -1,4 +1,4 @@
-# Create new blocks <span class="status untested">Not yet tested</span>
+# Create new blocks <span class="status unverified">Not yet tested</span>
 
 Can a levelbuilder make a brand-new block for Sprite Lab 2? Partly. This page records what was checked on 2026-11-25 and the steps for a full test. No new block has been created yet.
 
