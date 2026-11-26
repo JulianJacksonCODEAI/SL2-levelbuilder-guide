@@ -2,6 +2,8 @@
 
 A level's **Kind** decides which tabs students see. Set it in the **Level mode (Lab2 only)** section of the edit page, then click **Save and publish**.
 
+![The Level mode (Lab2 only) section of the edit page, with Kind set to Free play](images/levelbuilder/level-mode.png){ .screenshot }
+
 | Kind | Tabs students see | Settings it shows |
 |---|---|---|
 | None | Images, Code, Play (students can edit scenes) | None |
