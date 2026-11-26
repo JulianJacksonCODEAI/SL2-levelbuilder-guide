@@ -1,10 +1,8 @@
 # Blocks
 
-This page lists every block you can put in a Sprite Lab 2 toolbox, with what each one does and whether it works. Search by name or type, or jump to a category.
+This page lists every block you can put in a Sprite Lab 2 toolbox, with what each one does and whether it works. Search by name, type or what it does, or pick a category from the page contents.
 
 <div id="block-filter" class="block-filter"></div>
-
-**Jump to:** [AI](#ai) · [Events](#events) · [Sprites](#sprites) · [Behaviors](#behaviors) · [World](#world) · [Game Design](#game-design) · [Variables](#variables) · [Functions](#functions) · [Logic](#logic) · [Loops](#loops) · [Math](#math) · [Text](#text) · [Colour](#colour) · [Location](#location) · [Not in Sprite Lab 2](#not-in-sprite-lab-2)
 
 | Label | Meaning |
 |---|---|
