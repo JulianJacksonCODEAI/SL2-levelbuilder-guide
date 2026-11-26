@@ -6,6 +6,7 @@ edit_uri = "edit/main/docs/"
 repo_url = "https://github.com/JulianJacksonCODEAI/SL2-levelbuilder-guide"
 repo_name = "SL2-levelbuilder-guide"
 extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/block-filter.js"]
 nav = [
   { "Home" = "index.md" },
   { "How-to" = [
@@ -21,10 +22,9 @@ nav = [
   { "Reference" = [
     { "JSON properties" = "reference/json-properties.md" },
     { "Console recipes" = "reference/console-recipes.md" },
-    { "All blocks" = "reference/blocks.md" },
+    { "Blocks" = "reference/blocks.md" },
     { "AI blocks" = "reference/ai-blocks.md" },
-    { "Block status" = "reference/block-status.md" },
-    { "Known bugs and changes" = "reference/known-bugs.md" },
+    { "Limits and changes" = "reference/known-bugs.md" },
   ] },
 ]
 
