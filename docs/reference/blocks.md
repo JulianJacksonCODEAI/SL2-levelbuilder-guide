@@ -4,17 +4,21 @@ This page lists every block you can put in a Sprite Lab 2 toolbox, with what eac
 
 <div id="block-filter" class="block-filter"></div>
 
-??? info "How to read this page"
-    | Label | Meaning |
-    |---|---|
-    | <span class="status tested">Tested</span> | Tried in Level Builder and did what the page says. |
-    | <span class="status untested">Check by hand</span> | Couldn't be checked in a test run (it needs arrow keys, sound or songs). The note says why. |
-    | <span class="status untested">Not yet tested</span> | Comes from the lab's code or a report. Try it on your own test level first. |
-    | <span class="status no">Not available</span> | Not in Sprite Lab 2 yet. See [Not in Sprite Lab 2](#not-in-sprite-lab-2). |
+<details class="info" markdown>
+<summary>How to read this page</summary>
 
-    The code after each block's name is its type. Use the type in level JSON and console snippets. To link to a block, add `#` and the type to this page's address, for example `blocks/#spritelab2_askAI`. Open **Details** for the block's shape and test notes.
+| Label | Meaning |
+|---|---|
+| <span class="status tested">Tested</span> | Tried in Level Builder and did what the page says. |
+| <span class="status untested">Check by hand</span> | Couldn't be checked in a test run (it needs arrow keys, sound or songs). The note says why. |
+| <span class="status untested">Not yet tested</span> | Comes from the lab's code or a report. Try it on your own test level first. |
+| <span class="status no">Not available</span> | Not in Sprite Lab 2 yet. See [Not in Sprite Lab 2](#not-in-sprite-lab-2). |
 
-    **Testing a block yourself:** In start mode the small preview runs **when run** right away, so you can see most blocks work without pressing Run. Timers, clicks and behaviors need **Run**. The game takes about 3 seconds to start.
+The code after each block's name is its type. Use the type in level JSON and console snippets. To link to a block, add `#` and the type to this page's address, for example `blocks/#spritelab2_askAI`. Open **Details** for the block's shape and test notes.
+
+**Testing a block yourself:** In start mode the small preview runs **when run** right away, so you can see most blocks work without pressing Run. Timers, clicks and behaviors need **Run**. The game takes about 3 seconds to start.
+
+</details>
 
 ## AI
 
