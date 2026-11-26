@@ -245,6 +245,14 @@
 [data-md-color-scheme="slate"] .md-typeset .status.untested { background: #7A3606; color: #FCE8D6; }
 [data-md-color-scheme="slate"] .md-typeset .status.no { background: #7A1818; color: #F5DADA; }
 
+/* In tables, Tested is the usual case: plain text, so the exceptions stand out */
+.md-typeset td .status.tested,
+[data-md-color-scheme="slate"] .md-typeset td .status.tested {
+  background: transparent;
+  padding: 0;
+  font-weight: 600;
+  color: var(--md-default-fg-color--light);
+}
 /* Show only the block picture that matches the color scheme */
 [data-md-color-scheme="default"] img[src$="#only-dark"],
 [data-md-color-scheme="slate"] img[src$="#only-light"] {
