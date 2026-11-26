@@ -129,9 +129,9 @@
         var visible = !active || (s.table && Array.prototype.some.call(s.table.tBodies[0].rows, function (tr) { return !tr.hidden; }));
         s.els.forEach(function (e) { e.hidden = !visible; });
       });
-      count.textContent = active ? shown + " of " + rows.length + " blocks" : rows.length + " blocks";
+      count.textContent = active ? shown + " of " + rows.length + " blocks and features" : rows.length + " blocks and features";
       empty.hidden = !(active && shown === 0);
-      emptyText.textContent = q ? "No blocks match “" + input.value.trim() + "”." : "No blocks have that status.";
+      emptyText.textContent = q ? "Nothing matches “" + input.value.trim() + "”." : "Nothing has that status.";
     }
 
     input.addEventListener("input", apply);
