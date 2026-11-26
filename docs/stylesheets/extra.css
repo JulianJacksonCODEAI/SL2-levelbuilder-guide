@@ -49,7 +49,7 @@
   background: none;
   padding: 0;
   margin: 0.4em 0 0;
-  font-size: 0.8em;
+  font-size: inherit;
   overflow: visible;
 }
 .md-typeset details.block-details > summary {
@@ -100,4 +100,111 @@
 [data-md-color-scheme="default"] img[src$="#only-dark"],
 [data-md-color-scheme="slate"] img[src$="#only-light"] {
   display: none !important;
+}
+
+/* Visually hidden text for screen readers */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Blocks page: name and type on one line, a linkable row */
+.md-typeset .block-name {
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  scroll-margin-top: 4rem;
+}
+.md-typeset .block-name + code {
+  white-space: nowrap;
+}
+.md-typeset tr:has(.block-name:target) > td {
+  background: color-mix(in srgb, var(--md-primary-fg-color) 10%, transparent);
+}
+.md-typeset .known-issue {
+  display: block;
+  margin-top: 0.4em;
+}
+.md-typeset .known-issue .status {
+  font-size: 0.62rem;
+}
+
+/* Filter above the block tables (added by block-filter.js) */
+.md-typeset .block-filter:empty {
+  display: none;
+}
+.md-typeset .block-filter {
+  margin: 1.5em 0 0.5em;
+}
+.md-typeset .block-filter__label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.35em;
+}
+.md-typeset .block-filter__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+.md-typeset .block-filter__input {
+  flex: 1 1 16rem;
+  min-width: 0;
+  min-height: 2.4rem;
+  padding: 0.4em 0.7em;
+  font: inherit;
+  color: var(--md-default-fg-color);
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  border-radius: 6px;
+}
+.md-typeset .block-filter__input::placeholder {
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .block-filter__input:focus-visible,
+.md-typeset .block-filter__chip:focus-visible,
+.md-typeset .block-filter__clear:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+.md-typeset .block-filter__statuses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+/* Status chips as toggles: outlined when off, filled when on */
+.md-typeset .block-filter__chip {
+  min-height: 2rem;
+  padding: 0.2em 0.85em;
+  font-family: inherit;
+  cursor: pointer;
+  border: 1.5px solid currentColor;
+}
+.md-typeset .block-filter__chip[aria-pressed="false"] {
+  background: transparent;
+}
+.md-typeset .block-filter__count {
+  margin: 0.5em 0 0;
+  font-size: 0.7rem;
+  color: var(--md-default-fg-color--light);
+}
+.md-typeset .block-filter__empty {
+  margin: 0.75em 0 0;
+}
+.md-typeset .block-filter__clear {
+  font: inherit;
+  font-weight: 700;
+  color: var(--md-typeset-a-color);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
