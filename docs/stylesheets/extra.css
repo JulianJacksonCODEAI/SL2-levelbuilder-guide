@@ -220,6 +220,14 @@
   border-radius: 6px;
 }
 
+/* Phones: the How to read this page toggle is a full-size tap target */
+@media screen and (max-width: 600px) {
+  .md-typeset details.info > summary {
+    min-height: 2.2rem;
+    display: flex;
+    align-items: center;
+  }
+}
 /* Status chips */
 .md-typeset .status {
   display: inline-block;
