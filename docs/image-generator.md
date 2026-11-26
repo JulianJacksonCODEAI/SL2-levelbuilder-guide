@@ -33,9 +33,24 @@ Each kind gets a different sentence and different word chips. The first chip is 
 
 Only characters have the **Animated** toggle and Idle, Walk and Jump frames. Objects, backgrounds and blocks are one still picture.
 
-| Background | Object | Block |
-|---|---|---|
-| ![Background: a snowy forest](images/images-tab/background-creator.png){ .block } | ![Object: a star](images/images-tab/object-creator.png){ .block } | ![Block: grass](images/images-tab/block-creator.png){ .block } |
+<div class="picture-row" markdown>
+
+<figure markdown>
+![Background: a snowy forest](images/images-tab/background-creator.png){ .block }
+<figcaption>Background</figcaption>
+</figure>
+
+<figure markdown>
+![Object: a star](images/images-tab/object-creator.png){ .block }
+<figcaption>Object</figcaption>
+</figure>
+
+<figure markdown>
+![Block: grass](images/images-tab/block-creator.png){ .block }
+<figcaption>Block</figcaption>
+</figure>
+
+</div>
 
 ## Where pictures show up in blocks
 

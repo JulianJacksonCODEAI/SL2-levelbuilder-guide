@@ -228,6 +228,40 @@
     align-items: center;
   }
 }
+/* A row of example pictures that wraps on narrow screens */
+.md-typeset .picture-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+  margin: 1em 0;
+}
+.md-typeset .picture-row figure {
+  margin: 0;
+}
+.md-typeset .picture-row img {
+  max-width: 100%;
+  height: auto;
+}
+.md-typeset .picture-row figcaption {
+  margin: 0.4em 0 0;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Inline and block code a step closer to body size */
+.md-typeset code {
+  font-size: 0.9em;
+}
+
+/* Phones: header buttons are full-size tap targets */
+@media screen and (max-width: 600px) {
+  .md-header__button.md-icon {
+    padding: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
 /* Status chips */
 .md-typeset .status {
   display: inline-block;
