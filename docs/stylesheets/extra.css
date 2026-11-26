@@ -42,7 +42,41 @@
   max-width: 300px;
   margin: 0.2em 0;
 }
-/* Details toggle under a block's description: plain text link, not a note box */
+
+/* Phones: tables that hold block pictures become one card per row */
+@media screen and (max-width: 600px) {
+  .md-typeset table:has(img.block) {
+    display: block;
+    width: 100%;
+    border: 0;
+    background: none;
+  }
+  .md-typeset table:has(img.block) thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+  .md-typeset table:has(img.block) tbody,
+  .md-typeset table:has(img.block) tr,
+  .md-typeset table:has(img.block) td {
+    display: block;
+  }
+  .md-typeset table:has(img.block) tr {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem 0.8rem;
+    border: 1px solid var(--md-typeset-table-color);
+    border-radius: 0.4rem;
+  }
+  .md-typeset table:has(img.block) td {
+    padding: 0.3rem 0;
+    border: 0;
+  }
+  .md-typeset table:has(img.block) td img.block {
+    max-width: 100%;
+  }
+}/* Details toggle under a block's description: plain text link, not a note box */
 .md-typeset details.block-details {
   border: 0;
   box-shadow: none;
