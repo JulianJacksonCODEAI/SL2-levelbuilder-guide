@@ -49,7 +49,7 @@ Tested: a snowy forest background, grass platform blocks, a robot platform playe
 ![The four kinds of picture in a running game](images/images-tab/images-in-game.png){ .block }
 
 !!! tip "Use different images for touching"
-    **when ? touches ?** fires right away if both slots name the same image. An object gives you a second image to test touching with. See [All blocks](reference/blocks.md).
+    **when ? touches ?** fires right away if both slots name the same image. An object gives you a second image to test touching with. See [Blocks](reference/blocks.md#gamelab_checkTouching).
 
 ## Making a picture
 

@@ -1,17 +1,14 @@
-# Known bugs and changes
+# Limits and changes
 
-## Known bugs and limits
+Each block's status and known issues are on [Blocks](blocks.md). This page covers limits that aren't about one block.
+
+## Limits
 
 | Issue | Status |
 |---|---|
 | Initialization blocks don't exist. Blocks added at `/edit_blocks/initialization_blocks` never save or run. Use a [locked function](../setup-tricks.md) instead. | <span class="status tested">Tested</span> |
-| When an AI call fails, the variable isn't set and **when answered** never runs. See [AI blocks](ai-blocks.md). | <span class="status tested">Tested</span> |
-| **ask AI** sometimes shows its answer twice in one speech bubble. | <span class="status untested">Not yet tested</span> |
 | There is no AI Tutor in Sprite Lab 2. Use an AI Chat level next to the project. | <span class="status untested">Not yet tested</span> |
-| **when all prompts answered** didn't fire, and **when [key] pressed** didn't fire, in earlier tests. | <span class="status untested">Not yet tested</span> |
-| **remove** removes every sprite that matches. The touched and clicked sprite blocks may change. | <span class="status untested">Not yet tested</span> |
-| There are only three behaviors: moving left, moving with arrow keys, and patrolling left and right. | <span class="status untested">Not yet tested</span> |
-| Speech bubbles last 6 seconds. | <span class="status untested">Not yet tested</span> |
+| **when all prompts answered** didn't fire, and **when [key] pressed** didn't fire, in earlier tests. Neither is in the toolbox. | <span class="status untested">Not yet tested</span> |
 | Level settings are still being redesigned, so JSON keys may be renamed. | <span class="status untested">Not yet tested</span> |
 
 ## What changed from old Sprite Lab
