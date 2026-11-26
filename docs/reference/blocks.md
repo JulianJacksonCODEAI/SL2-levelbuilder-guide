@@ -4,16 +4,20 @@ This page lists every block you can put in a Sprite Lab 2 toolbox, with what eac
 
 <div id="block-filter" class="block-filter"></div>
 
-??? info "How to read this page"
-    | Label | Meaning |
-    |---|---|
-    | <span class="status tested">Tested</span> | Tried in Level Builder and did what the page says. |
-    | <span class="status untested">Check by hand</span> | Couldn't be checked in a test run (it needs arrow keys, sound or songs). The note says why. |
-    | <span class="status no">Not available</span> | Not in Sprite Lab 2 yet. See [Not in Sprite Lab 2](#not-in-sprite-lab-2). |
+<details class="info" markdown>
+<summary>How to read this page</summary>
 
-    The code after each block's name is its type. Use the type in level JSON and console snippets. To link to a block, add `#` and the type to this page's address, for example `blocks/#spritelab2_askAI`. Open **Details** for the block's shape and test notes.
+| Label | Meaning |
+|---|---|
+| <span class="status tested">Tested</span> | Tried in Level Builder and did what the page says. |
+| <span class="status untested">Check by hand</span> | Couldn't be checked in a test run (it needs arrow keys, sound or songs). The note says why. |
+| <span class="status no">Not available</span> | Not in Sprite Lab 2 yet. See [Not in Sprite Lab 2](#not-in-sprite-lab-2). |
 
-    **Testing a block yourself:** In start mode the small preview runs **when run** right away, so you can see most blocks work without pressing Run. Timers, clicks and behaviors need **Run**. The game takes about 3 seconds to start.
+The code after each block's name is its type. Use the type in level JSON and console snippets. To link to a block, add `#` and the type to this page's address, for example `blocks/#spritelab2_askAI`. Open **Details** for the block's shape and test notes.
+
+**Testing a block yourself:** In start mode the small preview runs **when run** right away, so you can see most blocks work without pressing Run. Timers, clicks and behaviors need **Run**. The game takes about 3 seconds to start.
+
+</details>
 
 ## AI
 
@@ -186,11 +190,11 @@ Blocks and features curriculum projects asked for that Sprite Lab 2 doesn't have
 
 | Block or feature | Notes | Status |
 |---|---|---|
-| <span class="block-name" id="print">print</span> | The block exists in the lab's code but isn't in the toolbox catalog. In a test it showed nothing and may stop the script it is in. | <span class="status no">Not available</span> |
-| <span class="block-name" id="upload-a-sprite-image">Upload a sprite image</span> | A level mode setting labeled "FOR DEVELOPMENT USE ONLY." | <span class="status no">Not available</span> |
-| <span class="block-name" id="free-text-image-generation">Free-text image generation</span> | Students pick from word chips. Authors can type a prompt under **Advanced**; see [Images tab](../image-generator.md). | <span class="status no">Not available</span> |
-| <span class="block-name" id="ai-instructions-set-in-level-builder">AI instructions set in Level Builder</span> | No level setting for it. | <span class="status no">Not available</span> |
-| <span class="block-name" id="go-to-another-project">Go to another project</span> | No block. | <span class="status no">Not available</span> |
+| print | The block exists in the lab's code but isn't in the toolbox catalog. In a test it showed nothing and may stop the script it is in. | <span class="status no">Not available</span> |
+| Upload a sprite image | A level mode setting labeled "FOR DEVELOPMENT USE ONLY." | <span class="status no">Not available</span> |
+| Free-text image generation | Students pick from word chips. Authors can type a prompt under **Advanced**; see [Images tab](../image-generator.md). | <span class="status no">Not available</span> |
+| AI instructions set in Level Builder | No level setting for it. | <span class="status no">Not available</span> |
+| Go to another project | No block. | <span class="status no">Not available</span> |
 
 Not checked yet: the limit on AI calls (30 a minute), sharing only within a section, and variables shared across scenes.
 
