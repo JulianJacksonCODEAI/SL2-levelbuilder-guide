@@ -89,6 +89,24 @@
     mount.appendChild(count);
     mount.appendChild(empty);
 
+    // Floating button back to the filter, shown once the filter is scrolled past
+    var jump = document.createElement("button");
+    jump.type = "button";
+    jump.className = "block-filter__jump";
+    jump.textContent = "Find a block";
+    jump.hidden = true;
+    jump.addEventListener("click", function () {
+      mount.scrollIntoView({ block: "start" });
+      input.focus({ preventScroll: true });
+    });
+    mount.parentNode.appendChild(jump);
+    if ("IntersectionObserver" in window) {
+      new IntersectionObserver(function (entries) {
+        var e = entries[0];
+        jump.hidden = e.isIntersecting || e.boundingClientRect.top > 0;
+      }).observe(mount);
+    }
+
     function reset() {
       input.value = "";
       buttons.forEach(function (b) { b.setAttribute("aria-pressed", "false"); });
