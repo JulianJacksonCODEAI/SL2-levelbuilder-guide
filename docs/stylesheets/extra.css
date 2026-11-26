@@ -1,14 +1,67 @@
 /* CodeAI purple as the primary color, with AA contrast in both schemes */
 :root {
   --md-primary-fg-color: #4C42CF;
-  --md-primary-fg-color--light: #6A62D9;
-  --md-primary-fg-color--dark: #18145A;
+  --md-primary-fg-color--light: #ACA8EA;
+  --md-primary-fg-color--dark: #1F1976;
   --md-accent-fg-color: #4C42CF;
 }
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #4C42CF;
-  --md-accent-fg-color: #A9A3F5;
-  --md-typeset-a-color: #A9A3F5;
+  --md-accent-fg-color: #ACA8EA;
+  --md-typeset-a-color: #ACA8EA;
+}
+
+/* CodeAI header: purple bar with the white logo, in both schemes */
+.md-header {
+  background-color: #4C42CF;
+  color: #FFFFFF;
+}
+.md-header__button.md-logo img {
+  height: 1rem;
+  width: auto;
+}
+/* Show the logo next to the menu button from tablet width up */
+@media screen and (min-width: 45em) {
+  .md-header__button.md-logo {
+    display: inline-block;
+  }
+  .md-header__inner > label.md-header__button[for="__drawer"] {
+    order: -1;
+  }
+}
+/* Search box on the purple bar: white text on a light wash */
+.md-header .md-search__button,
+.md-header .md-search__input {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.16);
+}
+.md-header .md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.85);
+}
+/* The repo link shows 0 stars and 0 forks; "Edit this page" replaces it */
+.md-header__source,
+.md-nav__source {
+  display: none;
+}
+
+/* Info, note and tip callouts in the brand purple; warnings keep their color */
+.md-typeset :is(.admonition, details):is(.info, .note, .tip) {
+  background-color: color-mix(in srgb, #4C42CF 9%, transparent);
+}
+.md-typeset :is(.info, .note, .tip) > :is(.admonition-title, summary)::before {
+  background-color: #4C42CF;
+}
+.md-typeset :is(.info, .note, .tip) > summary::after {
+  color: #4C42CF;
+}
+[data-md-color-scheme="slate"] .md-typeset :is(.admonition, details):is(.info, .note, .tip) {
+  background-color: color-mix(in srgb, #ACA8EA 12%, transparent);
+}
+[data-md-color-scheme="slate"] .md-typeset :is(.info, .note, .tip) > :is(.admonition-title, summary)::before {
+  background-color: #ACA8EA;
+}
+[data-md-color-scheme="slate"] .md-typeset :is(.info, .note, .tip) > summary::after {
+  color: #ACA8EA;
 }
 
 /* Inline code: tinted chip so block and property names stand out */
