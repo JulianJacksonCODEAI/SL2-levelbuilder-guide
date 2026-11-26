@@ -210,6 +210,16 @@
   margin: 0.3em 0 0;
 }
 
+/* Level Builder screenshots */
+.md-typeset img.screenshot {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0.75em 0;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 6px;
+}
+
 /* Status chips */
 .md-typeset .status {
   display: inline-block;
@@ -231,6 +241,32 @@
 [data-md-color-scheme="default"] img[src$="#only-dark"],
 [data-md-color-scheme="slate"] img[src$="#only-light"] {
   display: none !important;
+}
+
+/* Reading comfort: readable table text, line length and wrapping */
+.md-typeset table:not([class]) {
+  font-size: 0.7rem;
+}
+.md-content__inner > p,
+.md-content__inner > ul,
+.md-content__inner > ol {
+  max-width: 40em;
+}
+.md-typeset p,
+.md-typeset li {
+  text-wrap: pretty;
+}
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3 {
+  text-wrap: balance;
+}
+@media screen and (max-width: 600px) {
+  .md-typeset details.block-details > summary {
+    display: flex;
+    align-items: center;
+    min-height: 2.2rem;
+  }
 }
 
 /* Visually hidden text for screen readers */
