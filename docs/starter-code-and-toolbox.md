@@ -4,6 +4,9 @@
 
 1. Open `/levels/{level ID}/edit_blocks/start_sources`.
 2. Click the **Code** tab. The page says "You are editing start sources."
+
+    ![Start mode: the yellow bar says You are editing start sources, with the toolbox, workspace and preview](images/levelbuilder/start-mode.png){ .screenshot }
+
 3. Build the starter code. A new level starts with only `when run`, which students can't delete or move.
 
     ![when run block](images/blocks/when-run-light.png#only-light){ .block }
