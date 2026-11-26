@@ -15,7 +15,7 @@ Long Instructions use Markdown. `## Title` and `### Subtitle` show as headings i
 
 ## Block pools
 
-Keep the **GamelabJr** pool selected. The edit page notes that blocks Sprite Lab 2 doesn't support are left out of start mode and toolbox mode.
+Keep the **GamelabJr** pool selected. The edit page notes that blocks Sprite Lab 2 doesn't support are left out of **start mode** and **toolbox mode**, the pages where you build the starter code and choose the toolbox. See [Starter code and toolbox](starter-code-and-toolbox.md).
 
 !!! tip "Use your own test level"
     Try every change on a test level of your own before you touch a level that students or reviewers use.
