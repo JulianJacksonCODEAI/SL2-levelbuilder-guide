@@ -1,6 +1,6 @@
 # Blocks
 
-Every block a Sprite Lab 2 level can offer in its toolbox: what it looks like, its type, what it does, and whether it worked in a test run. Tested 2026-11-25 in a start-mode preview; nothing was saved. Pictures switch with the site's light and dark theme.
+Every block a Sprite Lab 2 level can offer in its toolbox: what it looks like, its type, what it does, and whether it worked in a test run. Tested 2026-11-25 in a start-mode preview; nothing was saved. Pictures switch with the site's light and dark theme. The list was checked again on 2026-11-25 against a reference level that has every working block in its toolbox; the notes below say where that level differs.
 
 <div id="block-filter" class="block-filter"></div>
 
@@ -20,7 +20,7 @@ The code next to each block's name is its type: the name used in level JSON and 
 
 ## AI
 
-See [AI blocks](ai-blocks.md) for what these return when things go wrong. They only work for accounts with AI turned on.
+See [AI blocks](ai-blocks.md) for what these return when things go wrong. They only work for accounts with AI turned on. The reference level's toolbox doesn't include these three: only **ask AI** is in its starter code, and its AI category holds just **when answered**.
 
 | Block | What it does | Status |
 |---|---|---|
@@ -113,7 +113,7 @@ Sprite Lab 2 has three behaviors: moving left, moving with arrow keys, and patro
 | ![change by](../images/blocks/math-change-light.png#only-light){ .block }![change by](../images/blocks/math-change-dark.png#only-dark){ .block } | <span class="block-name" id="math_change">change by</span> <code>math_change</code><br>Adds to a number variable. <details class="block-details"><summary>Details<span class="sr-only"> for change by</span></summary><p>Stack: snaps into a script<br>Listed under Math.</p></details> | <span class="status tested">Tested</span> |
 | ![show variable at](../images/blocks/show-variable-light.png#only-light){ .block }![show variable at](../images/blocks/show-variable-dark.png#only-dark){ .block } | <span class="block-name" id="gamelab_showVariable">show variable at</span> <code>gamelab_showVariable</code><br>Shows a variable's name and value on the game screen, as a label like `score: 7`. <details class="block-details"><summary>Details<span class="sr-only"> for show variable at</span></summary><p>Stack: snaps into a script</p></details> | <span class="status tested">Tested</span> |
 | ![hide variable](../images/blocks/hide-variable-light.png#only-light){ .block }![hide variable](../images/blocks/hide-variable-dark.png#only-dark){ .block } | <span class="block-name" id="gamelab_hideVariable">hide variable</span> <code>gamelab_hideVariable</code><br>Hides that label again. <details class="block-details"><summary>Details<span class="sr-only"> for hide variable</span></summary><p>Stack: snaps into a script</p></details> | <span class="status tested">Tested</span> |
-| ![sprite variable](../images/blocks/sprite-variables-get-light.png#only-light){ .block }![sprite variable](../images/blocks/sprite-variables-get-dark.png#only-dark){ .block } | <span class="block-name" id="sprite_variables_get">sprite variable</span> <code>sprite_variables_get</code><br>Reads a sprite's own variable. No toolbox block sets one, so it wasn't tested. <details class="block-details"><summary>Details<span class="sr-only"> for sprite variable</span></summary><p>Value: plugs into a slot</p></details> | <span class="status untested">Check by hand</span> |
+| ![sprite variable](../images/blocks/sprite-variables-get-light.png#only-light){ .block }![sprite variable](../images/blocks/sprite-variables-get-dark.png#only-dark){ .block } | <span class="block-name" id="sprite_variables_get">sprite variable</span> <code>sprite_variables_get</code><br>Reads a sprite's own variable. No toolbox block sets one, so it wasn't tested.<span class="known-issue"><strong>Note:</strong> not in the reference level's Variables category. It may only appear once a sprite has a variable.</span> <details class="block-details"><summary>Details<span class="sr-only"> for sprite variable</span></summary><p>Value: plugs into a slot</p></details> | <span class="status untested">Check by hand</span> |
 
 ## Functions
 
